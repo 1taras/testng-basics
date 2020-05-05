@@ -9,7 +9,7 @@ How to set test priority?
 How to skip the test ?
 What is the purpose of dependsOnMethods?
 What is the purpose of alwaysRun?
-How to run the groupped tests?
+How to run the grouped tests?
 What is the difference between soft and hard assertions?
 How to perform a soft assertion?
 Why do we use assertAll() method?
