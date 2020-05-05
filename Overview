@@ -1,4 +1,5 @@
 https://testng.org/doc/documentation-main.html
+https://howtodoinjava.com/testng/testng-dataprovider/
 
 What is TestNG
 Why use TestNG
@@ -17,3 +18,5 @@ Why do we need test run parallelization?
 How to run test via TEstNG in parallel?
 Why do we need parametrization?
 What is the difference between !Test! and !Suite! level parameters
+Why do we use dataProvider?
+How to run test with dataProvider?
