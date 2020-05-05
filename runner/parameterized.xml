@@ -8,7 +8,7 @@
     <test name="logIn_test">
 
         <classes>
-            <class name="parametrization.ParametrizedExample1"></class>
+            <class name="parametrization.ParameterizedExample1"></class>
 
         </classes>
     </test>
@@ -20,7 +20,7 @@
         <parameter name="password" value="i dont know, sorry :)"></parameter>
         <classes>
 
-            <class name="parametrization.ParametrizedExample2"></class>
+            <class name="parametrization.ParameterizedExample2"></class>
         </classes>
     </test>
 
