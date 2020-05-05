@@ -13,3 +13,5 @@ How to run the groupped tests?
 What is the difference between soft and hard assertions?
 How to perform a soft assertion?
 Why do we use assertAll() method?
+Why do we need test run parallelization?
+How to run test via TEstNG in parallel?
