@@ -5,3 +5,5 @@ Reporter
 Invocation count
 How to set test priority?
 How to skip the test ?
+What is the purpose of dependsOnMethods?
+What is the purpose of alwaysRun?
