@@ -1,3 +1,5 @@
+https://testng.org/doc/documentation-main.html
+
 What is TestNG
 Why use TestNG
 TestNG Annotations
@@ -8,3 +10,6 @@ How to skip the test ?
 What is the purpose of dependsOnMethods?
 What is the purpose of alwaysRun?
 How to run the groupped tests?
+What is the difference between soft and hard assertions?
+How to perform a soft assertion?
+Why do we use assertAll() method?
