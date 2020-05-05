@@ -19,7 +19,7 @@ public class DependsOnMethods {
 
     }
 
-    @Test(dependsOnMethods = "sendEmail", alwaysRun = true)
+    @Test(dependsOnMethods = {"login","sendEmail"}, alwaysRun = true)
     void logout() {
         Assert.assertTrue(true);
         System.out.println("Logout Success");
