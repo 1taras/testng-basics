@@ -18,4 +18,9 @@ public class Priority {
     public void priorityEx3() {
         System.out.println("priority test 3 -");
     }
+
+    @Test() // default priority = 0
+    public void priorityEx4() {
+        System.out.println("priority test 4 -");
+    }
 }
