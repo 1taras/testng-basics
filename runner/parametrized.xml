@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parametrized suite ">
+
+    <!--    Suite level parameters-->
+    <parameter name="login" value="partizan"></parameter>
+    <parameter name="password" value="i dont know"></parameter>
+
+    <test name="logIn_test">
+
+        <classes>
+            <class name="parametrization.ParametrizedExample1"></class>
+
+        </classes>
+    </test>
+
+    <test name="signUp_test">
+
+        <!--        // Test level parameters-->
+        <parameter name="login" value="el Guapo"></parameter>
+        <parameter name="password" value="i dont know, sorry :)"></parameter>
+        <classes>
+
+            <class name="parametrization.ParametrizedExample2"></class>
+        </classes>
+    </test>
+
+
+</suite>

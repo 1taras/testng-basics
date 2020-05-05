@@ -15,3 +15,5 @@ How to perform a soft assertion?
 Why do we use assertAll() method?
 Why do we need test run parallelization?
 How to run test via TEstNG in parallel?
+Why do we need parametrization?
+What is the difference between !Test! and !Suite! level parameters
