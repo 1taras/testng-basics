@@ -1,0 +1,11 @@
+<suite name = "Suite Car tests--->">
+    <test name = "Test -->">
+        <classes>
+            <class name = "car.CarTest"/>
+            <class name = "car.BMWTest"/>
+            <class name = "car.ToyotaTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
