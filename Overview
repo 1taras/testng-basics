@@ -22,3 +22,4 @@ Why do we use dataProvider?
 How to run test with dataProvider?
 Why do we need Listeners?
 ITestListener
+ITestResult
