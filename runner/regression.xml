@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Example ">
+    <test name="Test_001">
+        <classes>
+            <class name="failedTestRerun.RegressionExample"/>
+            <class name="failedTestRerun.FailuresRerun"/>
+        </classes>
+    </test>
+</suite>

@@ -8,7 +8,11 @@
 .idea/**/dictionaries
 .idea/**/shelf
 .idea/vcs.xml/
+
+
+# Test run data
 /target
+/test-output
  
 
 

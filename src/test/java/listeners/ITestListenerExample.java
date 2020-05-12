@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 @Listeners(Listener1.class)
+// example of multiple listeners usage:
+// @Listeners({Listener1.class, Listener2.class})
 public class ITestListenerExample {
 
     @Test

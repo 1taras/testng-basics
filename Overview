@@ -1,5 +1,7 @@
 https://testng.org/doc/documentation-main.html
 https://howtodoinjava.com/testng/testng-dataprovider/
+https://www.w3schools.com/java/java_interface.asp
+https://metanit.com/java/tutorial/3.7.php
 
 What is TestNG
 Why use TestNG
@@ -23,3 +25,69 @@ How to run test with dataProvider?
 Why do we need Listeners?
 ITestListener
 ITestResult
+IInvokedMethodListener
+How to rerun failed tests?
+
+
+
+Reminder:
+
+1. What is meant by TestNG?
+
+TestNG is a testing framework inspired from JUnit and NUnit, but introducing some new functionalities that make it more powerful and easier to use. TestNG is an open source automated testing framework; where NG means NextGeneration.
+
+2. What is TestNG annotations in selenium?
+
+Annotation is repeatedly used by developers to describe a piece of code that is inserted into the program or business logic used to control the flow of methods in the programming language Java. Annotations play a major role in Test Next Generation (TestNG), an automation framework widely used by Selenium.
+
+3. Why do we need TestNG?
+
+TestNG is a preferred framework of QA analysts as it allows you to generate test reports in both HTML and XML formats. TestNG enable you to group test cases easily which is not possible in JUnit. TestNG is an advance framework designed in a way to leverage the benefits by both the developers and testers.
+
+4. How do you skip test cases in TestNG?
+
+In TestNG, @Test(enabled=false) annotation is used to skip a test case if it is not ready to test.
+
+5. What is difference between TestNG and JUnit?
+
+The process of parameterized test configuration in TestNG is easier than in JUnit (it requires more time and effort).
+
+JUnit does not support group test, while in TestNG, the specialists are able to administrate certain tests to a large group of people at the same time.
+
+6. Can we set negative priority in TestNG?
+
+Priority should be an integer value. It can be negative , zero or positive number. ... You can create a TestNG class with some test methods with priority and some without priority in same class.
+
+7. Why TestNG does not need main method?
+
+TestNg we don't use main() method, and we use Annotations instead. ... So, in short you don't need to write main() method, TestNg do that by itself. Refer the code at the end in Annotations documentation to get the idea how it happens.
+
+8. What is TestNG and its advantage?
+
+There are number of benefits but from Selenium perspective, major advantages of TestNG are :
+
+It gives the ability to produce HTML Reports of execution.
+
+Annotations made testers life easy.
+
+Test cases can be Grouped & Prioritized more easily.
+
+9. What is the difference between soft assert and verify?
+
+Whereas, in case of "Verify", the test method continues execution even after the failure of an assertion statement. ... In TestNG, the "Verify" functionality is provided by means of "Soft Assertions" or "SoftAssert" class.
+
+10. How do I run failed test cases in selenium?
+
+Refer below steps:
+
+After the first run of an automated test run. Right click on Project – Click on Refresh.
+
+A folder will be generated named “test-output” folder. Inside “test-output” folder, you could find “testng-failed.xml”
+
+Run “testng-failed.xml” to execute the failed test cases again.
+
+11. what is difference between soft assertion and hard assertion?
+
+Soft Assert: Soft Assert collects errors during @Test. Soft Assert does not throw an exception when an assert fails and would continue with the next step after the assert statement.
+
+Hard Assert: Hard Assert throws an AssertExceptionimmediately when an assert statement fails and test suite continues with next @Test.
